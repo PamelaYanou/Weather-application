@@ -1,0 +1,8 @@
+body {
+  background-color: whitesmoke;
+}
+.container {
+  background-color: #ddedfa;
+  margin: 30px auto;
+  max-width: 600px;
+}

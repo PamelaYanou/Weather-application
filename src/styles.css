@@ -12,18 +12,34 @@ body {
 }
 h1 {
   padding-bottom: 10px;
+  margin-left: 30px;
+  color: #3a4b90;
 }
 h2 {
   padding-top: 40px;
+  font-size: 38px;
+  margin-left: 40px;
+  color: #3a4b90;
 }
-.meteo-data {
-  display: flex;
-}
+
 a {
   color: #6282ba;
   font-weight: 600px;
 }
-
+.meteo-data {
+  display: flex;
+  justify-content: space-between;
+}
+.meteo-interger {
+  margin-top: 75px;
+  margin-right: 40px;
+  font-size: 39px;
+  font-weight: bold;
+  color: #3a4b90;
+}
+.meteo-output {
+  margin-left: 40px;
+}
 footer {
   padding-top: 40px;
   padding-bottom: 30px;
@@ -40,10 +56,12 @@ footer {
   border-radius: 20px;
   padding: 13px;
   font-size: 16px;
+  margin-left: 20px;
+  background-color: rgb(246, 242, 254);
 }
 .search-form-button {
   border: none;
-  width: 16%;
+  width: 15%;
   border-radius: 20px;
   padding: 13px;
   font-size: 16px;
@@ -51,4 +69,9 @@ footer {
   opacity: 0.6;
   color: aliceblue;
   margin-left: 5px;
+}
+.meteo-output {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
 }

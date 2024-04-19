@@ -10,6 +10,11 @@ function updateWeatherInfo(response) {
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   let windElement = document.querySelector("#wind");
   windElement.innerHTML = `${response.data.wind.speed}km/h`;
+  let imageElement = document.querySelector("#image");
+  imageElement.innerHTML = `<img
+                  src="${response.data.condition.icon_url}"
+                  class="image"
+                />`;
 }
 function formatDate(date) {
   let minutes = date.getMinutes();

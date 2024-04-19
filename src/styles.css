@@ -34,10 +34,11 @@ a {
 .meteo-interger {
   margin-top: 75px;
   margin-right: 40px;
-  font-size: 39px;
+  font-size: 20px;
   font-weight: bold;
   color: #01013d;
 }
+
 .meteo-output {
   margin-left: 40px;
 }
@@ -47,6 +48,7 @@ a {
 }
 .image {
   font-size: 45px;
+  width: 80px;
 }
 footer {
   padding-top: 40px;
@@ -61,7 +63,7 @@ footer {
   display: flex;
 }
 .meteo-app-figure {
-  font-size: 55px;
+  font-size: 65px;
 }
 .interger {
   color: #f21264;

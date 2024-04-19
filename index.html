@@ -15,19 +15,20 @@
   <body>
     <div class="container">
       <h1>Welcome to my weather app</h1>
-      <forms class="search-form">
+      <forms class="search-form" id="search-form">
         <input
           type="text"
-          placeholder="enter a city..."
+          placeholder="Enter a city..."
           required
           class="search-form-input"
+          id="search-form-input"
         />
         <input type="submit" value="search" class="search-form-button" />
       </forms>
       <main>
         <div class="meteo-data">
           <div>
-            <h2>Berlin</h2>
+            <h2 id="meteo-city">Berlin</h2>
             <p class="meteo-output">
               Friday 10:20 , cloudy
               <br />
@@ -63,5 +64,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>

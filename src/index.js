@@ -1,10 +1,11 @@
 function updateWeatherInfo(response) {
-  console.log(response.data.temperature.current);
   let temperatureElement = document.querySelector("#meteo-app-figure");
   let temperature = response.data.temperature.current;
   temperatureElement.innerHTML = Math.round(temperature);
   let h2 = document.querySelector("h2");
   h2.innerHTML = response.data.city;
+  let descriptionElement = document.querySelector("#description");
+  descriptionElement.innerHTML = response.data.condition.description;
 }
 function callCity(city) {
   let apiKey = `6d0cfo306t4a80c23b5feedc0cb2260c`;
